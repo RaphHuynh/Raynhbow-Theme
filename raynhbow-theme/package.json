@@ -1,0 +1,21 @@
+{
+  "name": "raynhbow-theme",
+  "displayName": "Raynhbow Theme",
+  "description": "Extension with multiple VS Code themes.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Raynhbow Light",
+        "uiTheme": "vs",
+        "path": "./themes/Raynhbow Light-color-theme.json"
+      }
+    ]
+  }
+}
